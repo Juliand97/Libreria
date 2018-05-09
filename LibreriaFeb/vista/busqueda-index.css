@@ -1,0 +1,76 @@
+body{
+	
+	/*background-image: url(imagenes/Libros1.jpg);*/
+	background-color:black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin:0;
+	padding:0;
+	font-style: italic;
+}
+form{
+	width: 70px;
+	height:20px;
+	margin: auto;
+	background: rgba(193, 255, 119, 0.2);
+	padding: 3px 2px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius:7px;
+	font-style: italic;
+}
+ body{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+input{
+	width: 80%;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-style: italic;
+	text-align:center;
+
+}
+
+
+}
+@media (max-width: 480px){
+	form
+	{
+
+		width: 100%;
+	}
+.envio{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:20px;
+}
+
+
+.envio:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+	}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}

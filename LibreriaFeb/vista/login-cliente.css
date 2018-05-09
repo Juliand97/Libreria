@@ -1,0 +1,57 @@
+
+
+body
+{
+margin: 0 auto ;
+background-size: 100px 72px;
+background-image:url(login/fondo.jpg);
+background-position:center;
+background-attachment:no-repeat;
+color:white;
+}
+.contenedor
+{
+	width:300px;
+	height:300px;
+	text-align:center;
+	background-color:rgba(0,0,0,0.4);
+	border:1px solid #4e4d4d;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:100px;
+	box-shadow:inset 0 0 100px brown;
+	border-color:silver;
+	margin:0 auto;
+	margin-top:200px;
+	
+}
+.imagen
+{
+	width:230px;
+	height:200px;
+	margin-top:30px;
+	border:10;
+	border-color:red;
+	margin-bottom:-20px;
+	border-radius: 129px;
+}
+
+.imagen{
+
+	cursor:pointer;
+	color: white;
+	border: 5px outset ;
+	border-radius: 193px;
+	border-color: #CB6204;
+	background:rgba(0,0,0,0.4);
+}
+.imagen:hover
+{
+	
+	cursor:pointer;
+	color: white;
+	border: 5px inset ;
+	border-radius: 172px;
+	border-color: #1B094F  ;
+	background:rgba(125, 35, 35,0.2);
+}

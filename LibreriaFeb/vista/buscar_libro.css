@@ -1,0 +1,91 @@
+body{
+	
+	/*background-image: url(imagenes/Libros1.jpg);*/
+	/*background-color:black;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin:0;
+	padding:0;
+	font-style: italic;
+}
+form{
+	width: 750px;
+	margin: auto;
+background: rgba(193, 255, 119, 0.2);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius:7px;
+	font-style: italic;
+}
+ body{
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-style: italic;
+	text-align:center;
+
+}
+.boton1{
+	background:rgba(0, 113, 31, 0.2);
+	color: #fff;
+	padding:40px;
+	height:130px;
+	width:130px;
+
+	border:10px ;
+	border-radius: 100px;
+
+}
+
+.boton1:hover{
+	cursor: pointer;
+	background: rgba(215, 209, 163, 0.7);
+	color: #000000;
+}
+
+}
+@media (max-width: 480px){
+	form
+	{
+
+		width: 100%;
+	}
+.boton{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:20px;
+}
+
+
+.boton:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+	}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
