@@ -1,0 +1,38 @@
+.img
+{
+	color: #fff;
+	cursor: pointer;
+	margin-left:180px;
+}
+.texto
+{
+	cursor: pointer;
+	margin-left:130px;
+}
+.reportes
+{
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius:7px;
+	font-style: italic;
+	color:white;
+	
+	
+	border:none 1px #000000;
+	-moz-border-radius-topleft: 75px; 
+	-moz-border-radius-topright:5px; 
+	-moz-border-radius-bottomleft:2px; 
+	-moz-border-radius-bottomright:75px; 
+	-webkit-border-top-left-radius:75px; 
+	-webkit-border-top-right-radius:5px; 
+	-webkit-border-bottom-left-radius:2px;
+	-webkit-border-bottom-right-radius:75px;
+	border-top-left-radius:75px; 
+	border-top-right-radius:5px; 
+	border-bottom-left-radius:1px;
+	border-bottom-right-radius:75px;
+}
