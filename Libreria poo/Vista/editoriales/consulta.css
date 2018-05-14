@@ -1,0 +1,122 @@
+body{
+	background-image:url(imagenes/consulta.jpg);
+	background-size: 100vw 100vh;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	font-style: italic;
+}
+.table {
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius:7px;
+	font-style: italic;
+}
+.table{
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 19px;
+	font-style: italic;
+}
+.botoneliedi{
+	font-size:19px; color:#FFF;
+	color:#FFF;
+	border:solid ;  
+	text-align:center; background:#575757; 
+	padding:6px 3px 6px 3px;  
+	-moz-border-radius: 2px;  
+	-webkit-border-radius: 2px; 
+	border-radius: 2px;
+	
+	border:dashed 1px #000000;
+	-moz-border-radius-topleft: 5px; 
+	-moz-border-radius-topright:1px; 
+	-moz-border-radius-bottomleft:1px; 
+	-moz-border-radius-bottomright:5px; 
+	-webkit-border-top-left-radius:5px; 
+	-webkit-border-top-right-radius:1px; 
+	-webkit-border-bottom-left-radius:1px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:5px; 
+	border-top-right-radius:2px; 
+	border-bottom-left-radius:1px;
+	border-bottom-right-radius:5px;
+}
+.botoneliedi:hover
+{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+.boton{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:20px 280px;
+	width: 400px ;
+	margin:20px;
+	margin-left:200px;
+}
+.boton1{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:20px;
+}
+.boton:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+.boton1:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+@media (max-width: 480px){
+	form
+	{
+
+		width: 100%;
+	}
+.boton{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:20px;
+}
+
+.boton:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+
+
+
+	}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
