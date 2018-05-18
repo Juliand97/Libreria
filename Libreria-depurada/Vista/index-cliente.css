@@ -1,0 +1,45 @@
+*{
+	padding:0;
+	margin:auto;
+}
+body
+{
+	
+	background-size:100vw 100vh;
+	background-attachment:fixed;
+}
+header
+{
+	width:auto;
+	margin:auto;
+	height:70px;
+	background:rgba(255, 111, 31, 0.4);
+}
+header ul
+{
+	display:flex;
+	list-style:none;
+	background:rgba(255, 111, 31, 0.4);
+}
+header ul li a
+{
+	display:block;
+	padding:20px 20px;
+	color:#FFFFFF;
+	text-decoration: none;
+	
+}
+header ul ul
+{
+	position:absolute;
+	top:60px;
+	display:block;
+	transform:translateY(-20%);
+	opacity:0;
+	transition:all .8s;
+}
+header ul li:hover ul
+{
+	opacity:1;
+	transform: translateY(0%);
+}
