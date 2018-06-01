@@ -1,0 +1,95 @@
+body{
+	font-family: Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(241, 81, 0, 0.4); 
+	position: fixed;
+	bottom: 0;
+}
+.btnI{
+	cursor: pointer;
+	height: 40px;
+}
+.btnU{
+	cursor: pointer;
+	height: 27px;
+
+}
+.btnT{
+	cursor: default;
+	height: 27px;
+}
+.btnC{
+	cursor: default;
+	height: 27px;
+}
+.btnF{
+	cursor: pointer;
+	height: 31px;
+}
+.btnS{
+	cursor: pointer;
+	height: 40px;	
+}
+.btnIn{
+	cursor: pointer;
+	height: 40px;
+}
+
+.Tp {
+    position: relative;
+    display: inline-block;
+    border-bottom: none; 
+}
+.Tp .Tptxt {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.Tp:hover .Tptxt {
+    visibility: visible;
+}
+.Tp .Tptxt {
+    top: 5px;
+    left: 40%; 
+}
+#posU{
+	position: relative;	 
+	top: 10px;	
+	right: -170px;
+}
+#posT{
+	position: relative;	 
+	top: -5px;	
+	right: -510px;
+}
+#posC{
+	position: relative;	 
+	top: 10px;	
+	right: -880px;
+}
+#posF{
+	position: relative;	 
+	top: 13px;	
+	right: -1250px;
+}
+.txtTx{
+	font-size: 7px;
+}
+h1{
+	font-family: inherit, sans-serif;
+	font-size: 16px;
+	color: #000;
+}
