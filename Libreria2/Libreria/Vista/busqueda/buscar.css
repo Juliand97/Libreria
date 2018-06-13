@@ -1,0 +1,76 @@
+body 
+	{
+		background-color:#000000;
+		color:#ffffff;
+		background-image:url('../imagenes/busqueda.jpg');
+	}
+	form
+	{
+		width:20%;
+		height:30%;
+		margin:10% 35%;
+		background-color: rgba(0, 50, 98, 0.6);
+		border-radius:10%;
+		border-style:outset;
+	}
+	p
+	{
+		font-size:100%;
+		white-space:pre-wrap;
+		text-align:center;
+	}
+	#libro
+	{
+		position:relative;
+		width:80%;
+		height:25%;
+		border-radius:8%;
+		border-color:white;
+		border-style:outset;
+		margin: 0% 10%;
+	}
+	::placeholder
+	{
+		
+		text-align:center;
+	}
+	.envio
+	{
+		min-width:10%;
+		min-height:10%;
+		margin: 0% 10%;
+		width:80%;
+		height:30%;
+		border-radius:5%;
+		border-color:lightyellow;	
+	}
+	.envio:hover
+	{
+		border-style:inset;
+		background:-webkit-gradient(radial, 263 -10, 534, -45 -315, 402, from(#00B500), to(#003328));
+		color:#ffffff;
+		cursor:pointer;
+	}
+	.form2
+	{
+		width:20%;
+		height:5%;
+	}
+	.envio2
+	{
+		
+		min-width:10%;
+		min-height:10%;
+		margin: 2% 10%;
+		width:80%;
+		height:60%;
+		border-radius:5%;
+		border-color:lightyellow;	
+	}
+	.envio2:hover
+	{
+		border-style:inset;
+		background:-webkit-gradient(radial, 263 -10, 534, -45 -315, 402, from(#00B500), to(#003328));
+		color:#ffffff;
+		cursor:pointer;
+	}
