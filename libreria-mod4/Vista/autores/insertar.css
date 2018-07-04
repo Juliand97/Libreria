@@ -1,0 +1,99 @@
+body{
+	background-image:url(imagenes/registro.jpg);
+	background-size: 100vw 100vh;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	font-style: italic;
+}
+.form {
+	width: 660px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px -20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius:7px;
+	font-style: italic;
+}
+.table
+{
+	
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	
+}
+input{
+	width: 650px;
+	margin-bottom: 10px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-style: italic;
+}
+.boton1{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	/*padding:10px;*/
+}
+.boton2{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	/*padding:10px;*/
+}
+.boton3{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	/*padding:10px;*/
+}
+
+.boton1:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+.boton2:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+.boton3:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+@media (max-width: 480px){
+	form
+	{
+
+		width: 100%;
+	}
+.boton{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:20px;
+}
+
+.boton:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+	}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
