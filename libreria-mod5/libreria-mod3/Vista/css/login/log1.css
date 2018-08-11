@@ -1,0 +1,32 @@
+body{
+	background-image: url("../../img/Login/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.contenedor .contend {
+	background-image: url("../../img/Login/fondo2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	background-size: 100% 100%;
+	padding: 8%;
+	padding-bottom: 8%;
+	margin: 15% auto;
+	max-width: 450px;	
+}
+.contenedor #posC{
+	box-sizing: border-box;
+}
+.contenedor .contend {
+	-webkit-box-shadow:  1px 1px 5px 3px rgba(0, 0, 0, 0.6);
+   	box-shadow:  0.5px 1px 5px 3px rgba(0, 0, 0, 0.6);	
+}/*
+.contenedor .library{
+	position: relative;
+	top: -100px;
+	box-sizing: border-box;
+}
+.btnL{
+	width: 20%;
+}*/

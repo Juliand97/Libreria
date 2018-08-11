@@ -1,0 +1,125 @@
+*{
+	padding:0;
+	margin:auto;
+}
+body
+{
+	
+	background-size:100vw 100vh;
+	background-attachment:fixed;
+}
+header
+{
+	width:auto;
+	margin:auto;
+	height:70px;
+	background:rgba(255, 111, 31, 0.4);
+}
+header ul
+{
+	display:flex;
+	list-style:none;
+	background:rgba(255, 111, 31, 0.4);
+}
+header ul li a
+{
+	display:block;
+	padding:20px 20px;
+	color:#FFFFFF;
+	text-decoration: none;
+	
+}
+header ul ul
+{
+	position:absolute;
+	top:60px;
+	display:block;
+	transform:translateY(-20%);
+	opacity:0;
+	transition:all .8s;
+}
+header ul li:hover ul
+{
+	opacity:1;
+	transform: translateY(0%);
+}
+.btnI{
+	cursor: pointer;
+	height: 40px;
+}
+.btnU{
+	cursor: pointer;
+	height: 27px;
+
+}
+.btnT{
+	cursor: default;
+	height: 27px;
+}
+.btnC{
+	cursor: default;
+	height: 27px;
+}
+.btnF{
+	cursor: pointer;
+	height: 31px;
+}
+.btnS{
+	cursor: pointer;
+	height: 40px;	
+}
+.btnIn{
+	cursor: pointer;
+	height: 40px;
+}
+.Tp {
+    position: relative;
+    display: inline-block;
+    border-bottom: none; 
+}
+.Tp .Tptxt {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.Tp:hover .Tptxt {
+    visibility: visible;
+}
+.Tp .Tptxt {
+    top: 5px;
+    left: 40%; 
+}
+#posU{
+	position: relative;	 
+	top: 10px;	
+	right: -170px;
+}
+#posT{
+	position: relative;	 
+	top: -5px;	
+	right: -510px;
+}
+#posC{
+	position: relative;	 
+	top: 10px;	
+	right: -880px;
+}
+#posF{
+	position: relative;	 
+	top: 13px;	
+	right: -1250px;
+}
+#posI{
+	position: relative;
+	top: 13px;
+	right: -1250px: 
+}
+.txtTx{
+	font-size: 7px;
+}

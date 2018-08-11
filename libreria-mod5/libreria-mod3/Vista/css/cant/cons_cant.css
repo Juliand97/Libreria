@@ -1,0 +1,45 @@
+body
+ 		{
+ 			background-image: url('../imagenes/consulta_cant.jpg');
+ 			background-attachment: scroll;
+ 			background-repeat: no-repeat;
+ 			background-size: 100% 100%;
+ 		}
+ 		.form
+ 		{
+ 			margin: 10% 35%;
+ 			background-color: rgba(45, 76, 72, 0.5);
+ 			width: 20%;
+ 			height: 30%;
+ 			border-radius: 10%;
+ 			border-color: white;
+ 		}
+ 		.isbn
+ 		{
+ 			border-style: outset;
+ 			border-radius: 10%;
+ 			width: 70%;
+ 			height: 25%;
+ 			margin: 10% 15%;
+ 		}
+ 		::placeholder
+ 		{
+ 			text-align: center;
+ 			white-space: pre-wrap;
+ 		}
+ 		.cons
+ 		{
+ 			border-style: outset;
+ 			border-radius: 10%;
+ 			width: 70%;
+ 			height: 25%;
+ 			margin: 5% 15%;
+ 			color: #fff;
+ 			background-color: rgba(103, 12, 24, 0.5);
+ 		}
+ 		.cons:hover
+ 		{
+ 			border-style: inset;
+ 			border-radius: 10%;
+ 			cursor: pointer;
+ 		}
