@@ -1,0 +1,99 @@
+body{
+	
+	background-image: url(../../img/editoriales/registrar.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin:0;
+	padding:0;
+	font-style: italic;
+}
+form {
+	width: 50%;
+	height: 60%;
+	background: rgba(0,0,0,0.4);
+	margin: 13% 25%;
+	box-sizing: border-box;
+	border-radius:7%;
+	font-style: italic;
+}
+
+input{
+	width:80%;
+	margin: 1% 9%;
+	padding: 2%;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-style: italic;
+}
+.boton1{
+	height: 20%;
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:10px;
+	margin: 100% 0%;
+	position: relative;
+}
+.boton2{
+	height: 20%;
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	margin: -98% 0%; 
+	position: relative;
+}
+.boton3{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:10px;
+	position: relative;
+}
+
+.boton1:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+.boton2:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+.boton3:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+@media (max-width: 480px){
+	form
+	{
+
+		width: 100%;
+	}
+.boton{
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	padding:20px;
+}
+
+.boton:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #000000;
+}
+	}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
