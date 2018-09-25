@@ -1,0 +1,66 @@
+*
+{
+	margin:0%;
+	padding:0%;
+
+}
+body
+{
+	background-image: url('../../img/correos/cambiar.jpg');
+	background-attachment: scroll;
+	background-size: 100% 120%;
+	background-repeat: no-repeat;
+}
+
+.form
+{
+	width: auto;
+	height: auto;
+	margin: 10% 20%;
+	background-color: rgba(7, 70, 110, 0.9);
+	border-radius: 2%;
+}
+.p
+{
+	text-align: center;
+}
+#id
+{
+	margin: 4% 25%;
+	width: 50%;
+	height: 30px;
+	border-radius: 2%;
+}
+#pass
+{
+	margin: -8% 25%;
+	width: 50%;
+	height: 30px;
+	border-radius: 2%;
+}
+#vpass
+{
+	margin: 3% 25%;
+	width: 50%;
+	height: 30px;
+	border-radius: 2%;
+}
+
+#cod
+{
+	margin: -3% 25%;
+	width: 50%;
+	height: 30px;
+	border-radius: 2%;
+}
+
+.enviar
+{
+	margin: 3% 20%;
+	width: 60%;
+	height: 30px;
+	border-radius: 2%;
+}
+::placeholder {
+  text-align: center;
+}

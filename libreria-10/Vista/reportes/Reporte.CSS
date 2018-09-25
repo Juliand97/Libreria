@@ -1,0 +1,74 @@
+body
+{
+background-color: black;
+}
+.img
+{
+	color: #fff;
+	cursor: pointer;
+	margin-left:180px;
+	border-radius: 40% ;
+	border-style: outset;
+}
+.texto
+{
+	cursor: pointer;
+	margin-left:130px;
+}
+.reportes
+{
+	width: 450px;
+	border:1px solid;
+	border-color: white;
+	margin: auto;
+	background-color: rgba(1, 85, 114, 0.6);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius:7px;
+	font-style: italic;
+	color:white;
+	border-style: outset;
+	
+	-moz-border-radius-topleft: 75px; 
+	-moz-border-radius-topright:5px; 
+	-moz-border-radius-bottomleft:2px; 
+	-moz-border-radius-bottomright:75px; 
+	-webkit-border-top-left-radius:75px; 
+	-webkit-border-top-right-radius:5px; 
+	-webkit-border-bottom-left-radius:2px;
+	-webkit-border-bottom-right-radius:75px;
+	border-top-left-radius:75px; 
+	border-top-right-radius:5px; 
+	border-bottom-left-radius:1px;
+	border-bottom-right-radius:75px;
+}
+.tabla
+{
+	border:4px solid;
+	border-color:rgba(65, 60, 44, 0.9);
+	color:white;
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	border-radius:7%;
+	
+}
+
+.tabla thead 
+
+{
+	border:1px solid;
+	background:-webkit-gradient(linear, 99% 100%, 100% 18%, from(#15213B), to(#020000));
+}
+
+.tabla tbody tr 
+{
+	border:1px solid;
+	background:-webkit-gradient(linear, 18% 1%, 60% 100%, from(#2C3E8F), to(#02111F));
+}
+.img:hover
+{
+	border-style: inset;
+}
+

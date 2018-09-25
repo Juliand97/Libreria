@@ -1,0 +1,66 @@
+body
+{
+	background-image:url("../../img/papiro.jpg");
+	background-attachment:scroll;
+}
+.form
+{
+	background:-webkit-gradient(radial, 200 85, 0, 220 -257, 465, from(#150D00), to(#754E28));
+	margin:10% 30%;
+	width:30%;
+	height: 35%;
+	border-radius:10%;
+}
+.lib
+{
+	margin:3% 25%;
+	width:50%;
+	height:20%;
+	border-radius:5%;
+}
+::placeholder
+{
+	text-align:center;
+}
+.cant
+{
+	margin:3% 25%;
+	width:50%;
+	height:20%;
+	border-radius:5%;
+}
+.envia
+{
+	margin:3% 25%;
+	width:50%;
+	height:20%;	
+	border-radius:5%;
+	border-style:outset;
+}
+.envia:hover
+{
+	border-style:inset;
+	cursor:pointer;
+}
+.form2
+{
+	background:-webkit-gradient(radial, 200 85, 0, 220 -257, 465, from(#150D00), to(#754E28));
+	margin:10% 30%;
+	width:30%;
+	height: 10%;
+	border-radius:10%;
+}
+.envio2
+{
+	margin:3% 25%;
+	width:50%;
+	height:50%;	
+	border-radius:5%;
+	border-style:outset;
+}
+.envio2:hover
+{
+	border-style:inset;
+	cursor:pointer;
+}
+
