@@ -1,0 +1,56 @@
+body
+{
+	background-image: url(../../img/categorias/cat.jpg);
+	background-size: 100%;
+}
+
+.formulario
+{
+	background-color: rgba(89, 40, 54, 0.7);
+	width: 20%;
+	height: 39%;
+	margin-left: 35%;
+	color:#fff;
+}
+
+h1
+{
+	text-align: center;
+}
+#cat
+{
+	margin-left:18%;
+	height: 30%; 
+	text-align: center;
+}
+#envio
+{
+	margin-left: 25%;
+	width: 50%;
+	height: 25%;
+	border-radius: 8%;
+	border-style: outset;
+}
+#envio:hover
+{
+	border-style: inset;
+	color: green;
+	cursor: pointer;
+	
+}
+.interaccion
+{
+	margin-left: 35%;
+	width: 20%;
+	height: 15%;
+	border-radius: 8%;
+	border-style: outset;
+}
+.interaccion:hover
+{
+	border-style: inset;
+	cursor: pointer;
+	
+		
+}
+

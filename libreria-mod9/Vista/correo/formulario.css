@@ -1,0 +1,70 @@
+body
+{
+	background:url(img/fondo.jpg);
+	background-size:cover;
+}
+
+.form
+{
+
+	background-color:rgba(22, 44, 101, 0.6);
+	margin: 10% 15%;
+	width: auto;
+	height: auto;
+	border-radius: 4%;
+}
+
+.id
+{
+	width: 70%;
+	text-align: center;
+	margin: 2% 15%;
+	height: 49px;
+	border-color: gray;
+	border-radius: 24%;
+}
+
+.user
+{
+
+	width: 70%;
+	text-align: center;
+	margin: 1% 15%;
+	height: 49px;
+	border-color: gray;
+	border-radius: 14px;
+}
+.pass
+{
+	width: 70%;
+	text-align: center;
+	margin: 1% 15%;
+	height: 49px;
+	border-color: gray;
+	border-radius: 14px;
+}
+.envio
+{
+	
+	background:-webkit-gradient(linear, 58% 73%, 48% 42%, from(#150F00), to(#4544BD));
+	color: white;
+	text-align: center;
+	width: 40%;
+	height: 30px;
+	margin: 1% 30%;
+
+}
+a
+{
+	margin: 1% 4%;
+}
+
+@media only screen and (min-width:320px) and (max-width: 640px)
+{
+	.lista-img
+	{
+	border-radius: 100%;
+	width: 30%;
+	height: 30%;
+	}
+}
