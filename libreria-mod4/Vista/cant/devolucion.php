@@ -5,7 +5,12 @@
 	</head>
 	<link rel="stylesheet" href="dev.css">
 	<style>
-		
+			.boton{
+			background:rgba(0,0,0,0.4);
+			color: #fff;
+			margin: 0 35%;
+		}
+
 	</style>
 	<body>
 		<div class="todo">
@@ -16,7 +21,11 @@
 			<br>
 			<br>
 			<br>
+			
 		</form>
+		<form method="post" action="../menureg.php">
+			<input type="submit" value="Volver a registros y consultas" class="boton">
+			</form>
 	</div>
 	</body>
 </html>

@@ -1,0 +1,21 @@
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+
+ body {
+
+ 	background-image: url(../../img/busqueda_visitante/ima.jpg);
+ 	background-size: cover;
+ 	background-attachment:absolute	;
+ }
+
+ #particles-js {
+ 	width: 100%;
+ 	height: 100%;
+ 	position: absolute;
+ 	background:rgba(0,0,0,.8);
+}
