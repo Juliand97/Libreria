@@ -1,0 +1,117 @@
+body
+ 		{
+ 			background-image: url('../../img/consulta_cant.jpg');
+ 			background-attachment: scroll;
+ 			background-repeat: no-repeat;
+ 			background-size: 100% 100%;
+ 		}
+ 		.form
+ 		{
+ 			margin: 10% 35%;
+ 			background-color: rgba(45, 76, 72, 0.5);
+ 			width: 20%;
+ 			height: 30%;
+ 			border-radius: 10%;
+ 			border-color: white;
+ 		}
+ 		.isbn
+ 		{
+ 			border-style: outset;
+ 			border-radius: 10%;
+ 			width: 70%;
+ 			height: 25%;
+ 			margin: 10% 15%;
+ 		}
+ 		::placeholder
+ 		{
+ 			text-align: center;
+ 			white-space: pre-wrap;
+ 		}
+ 		.cons
+ 		{
+ 			border-style: outset;
+ 			border-radius: 10%;
+ 			width: 70%;
+ 			height: 25%;
+ 			margin: 5% 15%;
+ 			color: #fff;
+ 			background-color: rgba(103, 12, 24, 0.5);
+ 		}
+ 		.cons:hover
+ 		{
+ 			border-style: inset;
+ 			border-radius: 10%;
+ 			cursor: pointer;
+ 		}
+ 		.enlace
+ 		{
+ 			font-weight: bold;
+ 			margin: 10% 35%;
+ 			color:white;
+ 			font-style: italic;
+ 		}
+ 		.cont
+		{
+			position: absolute;
+			margin:-15% 28%;
+			width:60%;
+			height:20%;
+			background:-webkit-gradient(radial, 310 85, 0, 112 -215, 445, from(#000500), to(#004E28));
+			border-style: inset;
+			border-radius: 10%;
+			opacity: 0.8;
+		}
+		.tabla
+		{
+			color:white;
+			position: float;
+			width: 100%
+			height:auto;
+			margin: 3%  30%;
+			border-style: solid;
+			border-width: 10%;
+			background-color: rgba(29, 49, 70, 0.3);
+			
+
+		}
+		th
+		{
+			border-style: solid;
+			background-color: rgba(29, 49, 70, 0.3);
+			border-style: outset;
+		}
+		tr
+		{
+			border-style: solid;
+			background-color: rgba(29, 49, 70, 0.3);
+			border-style: outset;
+		}
+		td
+		{
+			border-style: solid;
+			background-color: rgba(29, 49, 70, 0.3);
+			border-style: outset;
+		}
+		
+		.formulario
+		{
+			position: relative;
+			margin:17% 35%;
+			width:20%;
+			height:20%;
+			background-color: rgba(150, 133, 170, 0.6);
+			border-radius: 10%;
+			border-style: inset;
+		}
+		.volver
+		{
+			border-style: outset;
+			position: relative;
+			margin: 15% 15%;
+			width: 70%;
+			height: 40%;
+			background-color: rgba(150, 133, 72, 0.6);
+			border-radius: 10%;
+
+		}
+
